@@ -153,7 +153,7 @@ jobs:
           tag: v${{ env.ONNXRUNTIME_VERSION }}
 
 
-      - uses: actions/upload-artifact@v4
+      - uses: actions/upload-artifact@v5
         if: steps.cache-build-result.outputs.cache-hit != 'true'
         with:
           name: onnxruntime-win-x64-static_lib
