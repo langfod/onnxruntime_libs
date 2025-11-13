@@ -65,6 +65,12 @@ install(
     ${ONNXRUNTIME_SOURCE_DIR}/include/onnxruntime/core/session/onnxruntime_c_api.h
     ${ONNXRUNTIME_SOURCE_DIR}/include/onnxruntime/core/session/onnxruntime_cxx_api.h
     ${ONNXRUNTIME_SOURCE_DIR}/include/onnxruntime/core/session/onnxruntime_cxx_inline.h
+    ${ONNXRUNTIME_SOURCE_DIR}/include/onnxruntime/core/session/onnxruntime_ep_c_api.h
+    ${ONNXRUNTIME_SOURCE_DIR}/include/onnxruntime/core/session/onnxruntime_ep_device_ep_metadata_keys.h
+    ${ONNXRUNTIME_SOURCE_DIR}/include/onnxruntime/core/session/onnxruntime_lite_custom_op.h
+    ${ONNXRUNTIME_SOURCE_DIR}/include/onnxruntime/core/session/environment.h
+    ${ONNXRUNTIME_SOURCE_DIR}/include/onnxruntime/core/session/experimental_onnxruntime_cxx_api.h
+    ${ONNXRUNTIME_SOURCE_DIR}/include/onnxruntime/core/session/experimental_onnxruntime_cxx_inline.h
     ${ONNXRUNTIME_SOURCE_DIR}/include/onnxruntime/core/providers/cpu/cpu_provider_factory.h
     ${ONNXRUNTIME_SOURCE_DIR}/include/onnxruntime/core/session/onnxruntime_run_options_config_keys.h
     ${ONNXRUNTIME_SOURCE_DIR}/include/onnxruntime/core/session/onnxruntime_session_options_config_keys.h
